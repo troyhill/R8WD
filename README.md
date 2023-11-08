@@ -3,12 +3,12 @@
 
 ## What R8WD does
 
-This R package provides tools for working with Water Quality Portal (WQP) data to summarize quality control measures. The goal of this effort is to reduce the barriers between water quality data and people seeking to gain insight from it. This is useful for organizations seeking to assess whether their quality control data meet the needs of their project.
+This R package provides tools for working with water and air quality data. The present emphasis is on quality control reporting for water quality datasets. The goal of this effort is to reduce the barriers between data and people seeking to gain insight from it. This is useful for individuals or organizations seeking to assess whether quality control data meet the needs of their application.
 
 
 ## How users can get started with the project
 
-Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged. If you are interested in contributing to development of R8WD, please see our [Contributing Policy](https://github.com/troyhill/R8WD/blob/main/CONTRIBUTING.md).
+Pull requests, bug reports, and all other forms of contribution are welcomed and highly encouraged. If you are interested in contributing to development of R8WD, please see our [Contributing Policy](https://github.com/USEPA/R8WD/blob/main/CONTRIBUTING.md).
 
 
 ## Where users can get help with the project
@@ -32,7 +32,7 @@ The United States Environmental Protection Agency (EPA) GitHub project code is p
 ```R
 if(!'remotes' %in% installed.packages()) install.packages('remotes')
 
-remotes::install_github("troyhill/R8WD")
+remotes::install_github("USEPA/R8WD")
 ```
 
 
